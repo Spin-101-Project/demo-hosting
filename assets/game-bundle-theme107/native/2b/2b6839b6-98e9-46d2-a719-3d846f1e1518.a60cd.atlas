@@ -1,0 +1,265 @@
+
+zeus.png
+size: 2074,822
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lib/armor
+  rotate: true
+  xy: 1994, 597
+  size: 90, 63
+  orig: 90, 63
+  offset: 0, 0
+  index: -1
+lib/beard1
+  rotate: true
+  xy: 2006, 157
+  size: 61, 30
+  orig: 62, 30
+  offset: 1, 0
+  index: -1
+lib/beard2
+  rotate: false
+  xy: 1687, 41
+  size: 76, 77
+  orig: 77, 77
+  offset: 1, 0
+  index: -1
+lib/beard3
+  rotate: false
+  xy: 711, 6
+  size: 62, 43
+  orig: 62, 43
+  offset: 0, 0
+  index: -1
+lib/body
+  rotate: true
+  xy: 424, 2
+  size: 154, 207
+  orig: 154, 207
+  offset: 0, 0
+  index: -1
+lib/body-glowing
+  rotate: true
+  xy: 1765, 504
+  size: 316, 227
+  orig: 400, 267
+  offset: 42, 28
+  index: -1
+lib/cloth
+  rotate: true
+  xy: 1855, 153
+  size: 121, 149
+  orig: 121, 149
+  offset: 0, 0
+  index: -1
+lib/crown
+  rotate: true
+  xy: 827, 219
+  size: 65, 20
+  orig: 66, 21
+  offset: 1, 0
+  index: -1
+lib/eyebrow1
+  rotate: true
+  xy: 2063, 256
+  size: 24, 9
+  orig: 24, 9
+  offset: 0, 0
+  index: -1
+lib/eyebrow2
+  rotate: false
+  xy: 2063, 247
+  size: 9, 7
+  orig: 9, 7
+  offset: 0, 0
+  index: -1
+lib/eyes1
+  rotate: true
+  xy: 775, 2
+  size: 47, 8
+  orig: 47, 8
+  offset: 0, 0
+  index: -1
+lib/eyes2
+  rotate: false
+  xy: 1155, 14
+  size: 50, 16
+  orig: 53, 17
+  offset: 1, 0
+  index: -1
+lib/hair1
+  rotate: true
+  xy: 1895, 16
+  size: 135, 93
+  orig: 135, 93
+  offset: 0, 0
+  index: -1
+lib/hair2
+  rotate: true
+  xy: 918, 22
+  size: 94, 25
+  orig: 94, 25
+  offset: 0, 0
+  index: -1
+lib/hair3
+  rotate: true
+  xy: 633, 3
+  size: 46, 76
+  orig: 46, 76
+  offset: 0, 0
+  index: -1
+lib/hand1-bottom
+  rotate: false
+  xy: 1994, 689
+  size: 62, 131
+  orig: 62, 131
+  offset: 0, 0
+  index: -1
+lib/hand1-bottom-ulti
+  rotate: true
+  xy: 973, 3
+  size: 115, 180
+  orig: 121, 187
+  offset: 3, 2
+  index: -1
+lib/hand1-up
+  rotate: true
+  xy: 1439, 18
+  size: 100, 120
+  orig: 100, 120
+  offset: 0, 0
+  index: -1
+lib/hand2-bottom
+  rotate: false
+  xy: 853, 2
+  size: 63, 114
+  orig: 63, 114
+  offset: 0, 0
+  index: -1
+lib/hand2-bottom-ulti
+  rotate: false
+  xy: 853, 118
+  size: 118, 166
+  orig: 124, 173
+  offset: 3, 4
+  index: -1
+lib/hand2-up
+  rotate: true
+  xy: 1994, 510
+  size: 85, 64
+  orig: 85, 64
+  offset: 0, 0
+  index: -1
+lib/leg1
+  rotate: false
+  xy: 1765, 158
+  size: 88, 344
+  orig: 88, 344
+  offset: 0, 0
+  index: -1
+lib/leg2-bottom
+  rotate: false
+  xy: 1765, 2
+  size: 128, 149
+  orig: 128, 149
+  offset: 0, 0
+  index: -1
+lib/leg2-up
+  rotate: true
+  xy: 1561, 37
+  size: 81, 124
+  orig: 81, 124
+  offset: 0, 0
+  index: -1
+lib/lightning-part1
+  rotate: true
+  xy: 2, 286
+  size: 534, 969
+  orig: 724, 1121
+  offset: 94, 85
+  index: -1
+lib/lightning-part2
+  rotate: false
+  xy: 973, 120
+  size: 790, 700
+  orig: 1137, 810
+  offset: 167, 25
+  index: -1
+lib/lightning-part3
+  rotate: true
+  xy: 2, 8
+  size: 96, 205
+  orig: 122, 207
+  offset: 12, 1
+  index: -1
+lib/lightning-part3-blue
+  rotate: true
+  xy: 209, 8
+  size: 96, 205
+  orig: 122, 207
+  offset: 12, 1
+  index: -1
+lib/lightning-part4
+  rotate: true
+  xy: 1155, 32
+  size: 86, 140
+  orig: 97, 142
+  offset: 5, 1
+  index: -1
+lib/lightning-part4-blue
+  rotate: true
+  xy: 1297, 32
+  size: 86, 140
+  orig: 97, 142
+  offset: 5, 1
+  index: -1
+lib/mouth
+  rotate: true
+  xy: 2058, 804
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+lib/skin
+  rotate: true
+  xy: 2006, 220
+  size: 60, 55
+  orig: 60, 55
+  offset: 0, 0
+  index: -1
+lib/skirt-1
+  rotate: false
+  xy: 1984, 282
+  size: 79, 220
+  orig: 79, 221
+  offset: 0, 0
+  index: -1
+lib/skirt-back
+  rotate: true
+  xy: 1855, 276
+  size: 226, 127
+  orig: 226, 127
+  offset: 0, 0
+  index: -1
+lib/skirt-top
+  rotate: false
+  xy: 633, 51
+  size: 218, 105
+  orig: 219, 105
+  offset: 1, 0
+  index: -1
+lib/thunderbolt
+  rotate: true
+  xy: 424, 158
+  size: 126, 401
+  orig: 130, 408
+  offset: 2, 3
+  index: -1
+lib/thunderbolt-ulti
+  rotate: true
+  xy: 2, 106
+  size: 178, 420
+  orig: 196, 435
+  offset: 10, 15
+  index: -1

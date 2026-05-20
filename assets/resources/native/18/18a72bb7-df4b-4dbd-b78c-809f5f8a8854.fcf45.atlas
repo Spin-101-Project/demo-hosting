@@ -1,0 +1,90 @@
+
+BigWin.png
+size: 3436,3226
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BigWinEN
+  rotate: true
+  xy: 2933, 588
+  size: 1160, 412
+  orig: 1175, 426
+  offset: 8, 8
+  index: -1
+MegaWinEN
+  rotate: false
+  xy: 2, 153
+  size: 1087, 713
+  orig: 1103, 725
+  offset: 8, 7
+  index: -1
+SuperWinEN
+  rotate: false
+  xy: 2373, 2565
+  size: 1061, 659
+  orig: 1075, 672
+  offset: 7, 7
+  index: -1
+bg-light
+  rotate: false
+  xy: 2, 868
+  size: 1596, 1357
+  orig: 1596, 1357
+  offset: 0, 0
+  index: -1
+blink
+  rotate: false
+  xy: 2725, 80
+  size: 561, 506
+  orig: 564, 512
+  offset: 2, 4
+  index: -1
+number-board
+  rotate: false
+  xy: 1574, 2
+  size: 1149, 433
+  orig: 1169, 455
+  offset: 10, 11
+  index: -1
+number-board-light
+  rotate: true
+  xy: 2496, 600
+  size: 1148, 435
+  orig: 1156, 444
+  offset: 4, 5
+  index: -1
+shield
+  rotate: false
+  xy: 2496, 1750
+  size: 822, 813
+  orig: 822, 813
+  offset: 0, 0
+  index: -1
+thunder-1
+  rotate: true
+  xy: 1600, 437
+  size: 1788, 894
+  orig: 1940, 1110
+  offset: 76, 108
+  index: -1
+thunder-2
+  rotate: false
+  xy: 2, 2227
+  size: 2369, 997
+  orig: 2540, 1216
+  offset: 87, 112
+  index: -1
+thunder-light
+  rotate: true
+  xy: 2373, 2436
+  size: 127, 80
+  orig: 141, 95
+  offset: 4, 7
+  index: -1
+thunderbolt
+  rotate: false
+  xy: 1091, 231
+  size: 481, 635
+  orig: 481, 635
+  offset: 0, 0
+  index: -1
