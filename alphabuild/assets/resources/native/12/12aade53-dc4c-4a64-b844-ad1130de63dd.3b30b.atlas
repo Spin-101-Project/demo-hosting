@@ -1,0 +1,76 @@
+
+FgTriggered.png
+size: 2483,1879
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CongratsEN
+  rotate: false
+  xy: 1171, 53
+  size: 1037, 163
+  orig: 1040, 165
+  offset: 2, 1
+  index: -1
+FreeGamesEN
+  rotate: true
+  xy: 884, 1206
+  size: 671, 108
+  orig: 671, 109
+  offset: 0, 1
+  index: -1
+TotalWinEN
+  rotate: false
+  xy: 1171, 218
+  size: 867, 168
+  orig: 870, 170
+  offset: 2, 1
+  index: -1
+blink
+  rotate: false
+  xy: 994, 1746
+  size: 148, 131
+  orig: 148, 134
+  offset: 0, 3
+  index: -1
+board
+  rotate: false
+  xy: 1195, 388
+  size: 1286, 739
+  orig: 1286, 754
+  offset: 0, 0
+  index: -1
+board-light
+  rotate: true
+  xy: 2, 419
+  size: 1458, 880
+  orig: 1458, 881
+  offset: 0, 0
+  index: -1
+board-shining
+  rotate: false
+  xy: 1171, 1129
+  size: 1286, 748
+  orig: 1286, 754
+  offset: 0, 0
+  index: -1
+lightning-1
+  rotate: true
+  xy: 884, 423
+  size: 704, 309
+  orig: 704, 310
+  offset: 0, 1
+  index: -1
+lightning-2
+  rotate: false
+  xy: 585, 19
+  size: 584, 398
+  orig: 584, 399
+  offset: 0, 0
+  index: -1
+wing
+  rotate: true
+  xy: 2, 2
+  size: 415, 581
+  orig: 422, 610
+  offset: 0, 24
+  index: -1

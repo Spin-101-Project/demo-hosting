@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../font/subset-Bahnschrift.woff2') format('woff2'), url('../font/subset-Bahnschrift.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+    width: 100%;
+    height: 130%;
+}
+
+@keyframes fadeId {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#bootContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: fadeId 0.5s;
+    text-align: center;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.align-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#canvasContainer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#canvasContainer canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#debugContainer {
+    position: fixed;
+    left: 2px;
+    top: 2px;
+    padding: 2px 5px;
+    font-family: monospace;
+    font-size: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#debugContainer > * {
+    display: inline-block;
+}
+
+#debugContainer > *::after {
+    content: ' | ';
+}
+
+#debugContainer > *:last-child::after {
+    content: '';
+}
+
+#debugContainer input {
+    vertical-align: middle;
+}
+
+.spinner {
+    text-align: center;
+    margin: auto;
+    display: block;
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .logo-img-div-Tiger {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .logo-img-div-Tiger {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    #info-page {
+        position: absolute;
+        left: inherit;
+        top: 0;
+        overflow: auto;
+        width: 100%;
+        max-width: 75vw;
+        height: 100%;
+    }
+
+    .paytable-box.symbol {
+        min-width: 40px !important;
+    }
+
+    .paytable-symbol-container {
+        min-width: 6em !important;
+    }
+
+    .paytable-symbol-container img {
+        max-width: 3em !important;
+    }
+
+    .paytable-symbol-container .low-symbol {
+        width: 2em;
+        transform: translate(-8px);
+    }
+}
+
+#Cocos2dGameContainer {
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+    width: 0;
+    height: 0;
+}
+
+.page {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    overflow: auto;
+
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    z-index: 2;
+}
+
+.page-container {
+    position: relative;
+    z-index: 10;
+
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2vw 25px 100px 25px;
+
+    background-color: #19191d;
+    color: white;
+
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    text-align: center;
+
+    animation: fadeId 0.5s;
+}
+
+.page-center-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 1;
+}
+
+#game-history-page .page-container {
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+.page-box {
+    width: 100%;
+    text-align: justify;
+}
+
+.paytable-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paytable-box {
+    /* width: 100%; */
+    text-align: justify;
+}
+
+.paytable-description {
+    flex-direction: column;
+    background-image: image-set(
+        '../img/information-page/paytable-wild-frame.avif' type('image/avif'),
+        '../img/information-page/paytable-wild-frame.webp' type('image/webp'),
+        '../img/information-page/paytable-wild-frame.png' type('image/png')
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.paytable-lbldescription {
+    font-size: 0.8em;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.paytable-box.symbol {
+    min-width: 80px;
+}
+
+.paytable-box.mutiplier {
+    color: #fabe11;
+    font-size: 1.3em;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Bahnschrift;
+}
+
+.paytable-box.amount {
+    font-size: 1.3em;
+    margin-right: 5px;
+    font-family: Bahnschrift;
+}
+
+.paytable-symbol-container.scatter .paytable-box.mutiplier,
+.paytable-symbol-container.scatter .paytable-box.amount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.paytable-box.mutiplier p,
+.paytable-box.amount p {
+    margin: 0;
+}
+
+.paytable-box.scatter-description {
+    width: 150px;
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 720px) {
+    .paytable-box.mutiplier {
+        font-size: 0.8em;
+    }
+
+    .paytable-box.amount {
+        font-size: 0.8em;
+    }
+
+    .paytable-symbol-container {
+        min-width: 3em !important;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .paytable-box.mutiplier {
+        font-size: 1em;
+    }
+
+    .paytable-box.amount {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .paytable-symbol-container img {
+        max-width: 4em !important;
+    }
+
+    .paytable-symbol-container .low-symbol {
+        width: 3em;
+    }
+
+    .paytable-box.mutiplier {
+        font-size: 1em;
+    }
+
+    .paytable-box.amount {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .paytable-symbol-container img {
+        max-width: 7em !important;
+    }
+
+    .paytable-symbol-container .low-symbol {
+        width: 8em;
+    }
+}
+
+@media screen and (min-width: 1280) {
+    .paytable-symbol-container img {
+        max-width: 6em !important;
+    }
+
+    .paytable-symbol-container .low-symbol {
+        width: 4em;
+    }
+
+    .paytable-box.mutiplier {
+        font-size: 1.3em;
+    }
+
+    .paytable-box.amount {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .paytable-symbol-container img {
+        max-width: 8em !important;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .paytable-symbol-container img {
+        max-width: 10em !important;
+    }
+
+    .paytable-box.mutiplier {
+        font-size: 1.3em;
+    }
+
+    .paytable-box.amount {
+        font-size: 1.3em;
+    }
+}
+
+.paytable-container {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* .paytable-container img {
+    width: 77%;
+} */
+
+.page-box.img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-box.img img {
+    width: inherit;
+    /* max-width: 500px; */
+}
+
+.info-btn-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.history-btn-close {
+    position: fixed;
+    top: 10px;
+    right: 5px;
+}
+
+.loading-container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: black;
+    animation: fadeId 0.5s;
+    opacity: 0.9;
+}
+
+.page-loading-icon {
+    position: absolute;
+    top: 35%;
+}
+
+#landscape-bg {
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-image: url('../img/landscape-bg.jpg');
+    animation: fadeId 0.5s;
+    display: none;
+}
+
+.paytable-symbol-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    min-width: 9em;
+}
+
+.paytable-symbol-container.scatter {
+    width: 100%;
+    justify-content: center;
+}
+
+.paytable-symbol-container img {
+    max-width: 5em;
+}
+
+.info-blocker {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0005;
+    z-index: 1;
+}
+
+.gold-text {
+    color: #fbce3d;
+    font-weight: bold;
+}
+
+/* end of custom style */
