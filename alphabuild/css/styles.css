@@ -155,7 +155,7 @@ body {
     }
 }
 
-#Cocos2dGameContainer {
+#Cocos3dGameContainer {
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
     width: 0;
     height: 0;
