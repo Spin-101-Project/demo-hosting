@@ -1,6 +1,6 @@
 const staticCacheName = 'site-static-v1';
 const assets = [
-  index.7f610.js'/'
+  index.7ff0b.js'/'
 ];
 // install event
 self.addEventListener('install', evt => {
