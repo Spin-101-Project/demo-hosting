@@ -179,8 +179,18 @@
 <script src="src/import-map.80916.json" type="systemjs-importmap" charset="utf-8"> </script>
 
 <script>
-    System.import('./index.7ff0b.js').catch(function(err) { console.error(err); })
+    System.import('./index.d8bff.js').catch(function(err) { console.error(err); })
 </script>
 
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('./sw.8f52f.js')
+          .then(function (reg) { console.log('[SW] registered', reg.scope); })
+          .catch(function (err) { console.warn('[SW] registration failed', err); });
+      });
+    }
+  </script>
 </body>
 </html>
