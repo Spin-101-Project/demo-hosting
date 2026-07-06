@@ -1,0 +1,132 @@
+
+goldreel-a.png
+size: 533,533
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bga
+  rotate: false
+  xy: 314, 213
+  size: 39, 318
+  orig: 39, 318
+  offset: 0, 0
+  index: -1
+bgb
+  rotate: true
+  xy: 2, 87
+  size: 115, 361
+  orig: 143, 409
+  offset: 14, 26
+  index: -1
+bgc
+  rotate: false
+  xy: 171, 396
+  size: 141, 135
+  orig: 148, 145
+  offset: 3, 7
+  index: -1
+blink0
+  rotate: false
+  xy: 454, 16
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+blink1
+  rotate: false
+  xy: 171, 254
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+conelight
+  rotate: false
+  xy: 365, 309
+  size: 154, 222
+  orig: 188, 420
+  offset: 17, 128
+  index: -1
+dot0
+  rotate: false
+  xy: 521, 522
+  size: 10, 9
+  orig: 16, 15
+  offset: 3, 3
+  index: -1
+dot1
+  rotate: false
+  xy: 521, 511
+  size: 10, 9
+  orig: 16, 15
+  offset: 3, 3
+  index: -1
+heart
+  rotate: true
+  xy: 267, 346
+  size: 48, 44
+  orig: 54, 51
+  offset: 3, 4
+  index: -1
+heartRing
+  rotate: false
+  xy: 171, 306
+  size: 94, 88
+  orig: 100, 94
+  offset: 3, 3
+  index: -1
+heartglow
+  rotate: false
+  xy: 393, 65
+  size: 56, 56
+  orig: 62, 62
+  offset: 3, 3
+  index: -1
+heartshine
+  rotate: true
+  xy: 365, 123
+  size: 184, 146
+  orig: 188, 157
+  offset: 2, 6
+  index: -1
+musicnote1
+  rotate: false
+  xy: 404, 10
+  size: 48, 53
+  orig: 51, 56
+  offset: 2, 2
+  index: -1
+musicnote1a
+  rotate: false
+  xy: 451, 68
+  size: 48, 53
+  orig: 51, 56
+  offset: 2, 2
+  index: -1
+musicnote2
+  rotate: false
+  xy: 267, 294
+  size: 41, 50
+  orig: 47, 55
+  offset: 3, 2
+  index: -1
+musicsheet
+  rotate: true
+  xy: 2, 46
+  size: 39, 389
+  orig: 39, 389
+  offset: 0, 0
+  index: -1
+streaklight
+  rotate: false
+  xy: 2, 204
+  size: 167, 327
+  orig: 167, 327
+  offset: 0, 0
+  index: -1
+trail_shine
+  rotate: true
+  xy: 2, 7
+  size: 37, 400
+  orig: 41, 409
+  offset: 2, 5
+  index: -1

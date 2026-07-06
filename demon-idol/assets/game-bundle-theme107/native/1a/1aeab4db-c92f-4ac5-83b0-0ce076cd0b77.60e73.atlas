@@ -1,0 +1,76 @@
+
+BaseGame-BG.png
+size: 421,508
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+laptop_comment
+  rotate: true
+  xy: 414, 474
+  size: 32, 5
+  orig: 34, 7
+  offset: 1, 1
+  index: -1
+laptop_lightup
+  rotate: true
+  xy: 293, 207
+  size: 299, 69
+  orig: 320, 80
+  offset: 15, 7
+  index: -1
+laptop_spotlight
+  rotate: false
+  xy: 2, 26
+  size: 75, 155
+  orig: 80, 160
+  offset: 2, 3
+  index: -1
+lightbulbglow
+  rotate: true
+  xy: 79, 145
+  size: 36, 34
+  orig: 54, 41
+  offset: 9, 6
+  index: -1
+lightray
+  rotate: false
+  xy: 2, 183
+  size: 158, 323
+  orig: 167, 380
+  offset: 3, 53
+  index: -1
+mask_window_02
+  rotate: true
+  xy: 162, 160
+  size: 346, 77
+  orig: 347, 78
+  offset: 0, 1
+  index: -1
+mask_window_03
+  rotate: false
+  xy: 303, 3
+  size: 53, 202
+  orig: 53, 202
+  offset: 0, 0
+  index: -1
+mask_window_04
+  rotate: false
+  xy: 79, 2
+  size: 222, 141
+  orig: 222, 141
+  offset: 0, 0
+  index: -1
+mask_window_05
+  rotate: true
+  xy: 241, 145
+  size: 361, 50
+  orig: 365, 53
+  offset: 2, 2
+  index: -1
+vines
+  rotate: false
+  xy: 364, 204
+  size: 48, 302
+  orig: 48, 302
+  offset: 0, 0
+  index: -1

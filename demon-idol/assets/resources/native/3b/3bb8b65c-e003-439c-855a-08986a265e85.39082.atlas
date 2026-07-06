@@ -1,0 +1,202 @@
+
+Symbol-HighLow-Scatter.png
+size: 1254,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01original/s1
+  rotate: false
+  xy: 183, 101
+  size: 107, 166
+  orig: 210, 210
+  offset: 48, 19
+  index: -1
+01original/s2
+  rotate: false
+  xy: 714, 115
+  size: 128, 152
+  orig: 210, 210
+  offset: 42, 21
+  index: -1
+01original/s3
+  rotate: true
+  xy: 571, 114
+  size: 153, 141
+  orig: 210, 210
+  offset: 29, 29
+  index: -1
+01original/s4
+  rotate: false
+  xy: 844, 121
+  size: 124, 146
+  orig: 210, 210
+  offset: 43, 29
+  index: -1
+01original/s5
+  rotate: true
+  xy: 673, 2
+  size: 110, 128
+  orig: 210, 210
+  offset: 49, 36
+  index: -1
+01original/s6
+  rotate: true
+  xy: 803, 2
+  size: 111, 123
+  orig: 210, 210
+  offset: 48, 39
+  index: -1
+01original/s7
+  rotate: false
+  xy: 1001, 143
+  size: 108, 124
+  orig: 210, 210
+  offset: 50, 37
+  index: -1
+01original/s8
+  rotate: true
+  xy: 306, 6
+  size: 98, 125
+  orig: 210, 210
+  offset: 57, 38
+  index: -1
+01original/s9
+  rotate: false
+  xy: 987, 2
+  size: 138, 122
+  orig: 210, 210
+  offset: 37, 39
+  index: -1
+blink
+  rotate: false
+  xy: 1127, 6
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+burstray
+  rotate: true
+  xy: 433, 4
+  size: 105, 104
+  orig: 105, 104
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 62, 11
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+f1/f1_chains
+  rotate: false
+  xy: 970, 126
+  size: 29, 141
+  orig: 31, 144
+  offset: 0, 2
+  index: -1
+f1/f1_font
+  rotate: false
+  xy: 49, 21
+  size: 166, 61
+  orig: 176, 72
+  offset: 5, 6
+  index: -1
+f1/f1_frame
+  rotate: true
+  xy: 2, 84
+  size: 183, 179
+  orig: 194, 190
+  offset: 5, 6
+  index: -1
+f1/f1_heart
+  rotate: false
+  xy: 292, 106
+  size: 127, 161
+  orig: 134, 172
+  offset: 4, 10
+  index: -1
+f1/f1_heart_blurfx
+  rotate: true
+  xy: 1204, 12
+  size: 44, 36
+  orig: 49, 39
+  offset: 3, 1
+  index: -1
+f1/f1_wing
+  rotate: false
+  xy: 2, 8
+  size: 45, 74
+  orig: 52, 80
+  offset: 4, 4
+  index: -1
+filterbase
+  rotate: true
+  xy: 1127, 58
+  size: 87, 86
+  orig: 89, 86
+  offset: 1, 0
+  index: -1
+flare_b_fx
+  rotate: false
+  xy: 1111, 147
+  size: 119, 120
+  orig: 119, 120
+  offset: 0, 0
+  index: -1
+lightFx
+  rotate: false
+  xy: 217, 12
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+lightbelow
+  rotate: true
+  xy: 928, 2
+  size: 117, 57
+  orig: 117, 57
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 539, 6
+  size: 132, 103
+  orig: 136, 109
+  offset: 2, 3
+  index: -1
+musicAura
+  rotate: true
+  xy: 421, 111
+  size: 156, 148
+  orig: 161, 152
+  offset: 3, 2
+  index: -1
+musicnote_01
+  rotate: false
+  xy: 1215, 61
+  size: 31, 40
+  orig: 35, 44
+  offset: 2, 2
+  index: -1
+musicnote_02
+  rotate: false
+  xy: 1215, 103
+  size: 37, 42
+  orig: 41, 46
+  offset: 2, 2
+  index: -1
+shapeParticle
+  rotate: true
+  xy: 49, 7
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+whiteshine
+  rotate: false
+  xy: 1179, 7
+  size: 23, 49
+  orig: 23, 49
+  offset: 0, 0
+  index: -1

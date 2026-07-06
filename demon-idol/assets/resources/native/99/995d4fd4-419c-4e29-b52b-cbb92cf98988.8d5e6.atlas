@@ -1,0 +1,216 @@
+
+Symbol-Wild-Gold.png
+size: 1522,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01original/goldframe
+  rotate: true
+  xy: 172, 88
+  size: 179, 164
+  orig: 210, 210
+  offset: 16, 22
+  index: -1
+01original/s1-gold
+  rotate: false
+  xy: 338, 100
+  size: 107, 167
+  orig: 210, 210
+  offset: 48, 18
+  index: -1
+01original/s2-gold
+  rotate: false
+  xy: 740, 119
+  size: 128, 148
+  orig: 210, 210
+  offset: 42, 25
+  index: -1
+01original/s3-gold
+  rotate: true
+  xy: 597, 114
+  size: 153, 141
+  orig: 210, 210
+  offset: 29, 29
+  index: -1
+01original/s4-gold
+  rotate: false
+  xy: 870, 121
+  size: 124, 146
+  orig: 210, 210
+  offset: 43, 29
+  index: -1
+01original/s5-gold
+  rotate: true
+  xy: 648, 2
+  size: 110, 128
+  orig: 210, 210
+  offset: 49, 36
+  index: -1
+01original/s6-gold
+  rotate: true
+  xy: 778, 6
+  size: 111, 123
+  orig: 210, 210
+  offset: 48, 39
+  index: -1
+01original/s7-gold
+  rotate: true
+  xy: 903, 11
+  size: 108, 124
+  orig: 210, 210
+  offset: 50, 37
+  index: -1
+01original/s8-gold
+  rotate: true
+  xy: 1392, 42
+  size: 98, 125
+  orig: 210, 210
+  offset: 57, 38
+  index: -1
+01original/s9-gold
+  rotate: true
+  xy: 1141, 131
+  size: 136, 122
+  orig: 210, 210
+  offset: 37, 39
+  index: -1
+blink
+  rotate: false
+  xy: 292, 36
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+burstray
+  rotate: true
+  xy: 1029, 15
+  size: 105, 104
+  orig: 105, 104
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 47, 5
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+filterbase
+  rotate: true
+  xy: 433, 11
+  size: 87, 86
+  orig: 89, 86
+  offset: 1, 0
+  index: -1
+flare_b_fx
+  rotate: true
+  xy: 1269, 18
+  size: 119, 120
+  orig: 119, 120
+  offset: 0, 0
+  index: -1
+lightFx
+  rotate: false
+  xy: 344, 11
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+lightbelow
+  rotate: false
+  xy: 173, 29
+  size: 117, 57
+  orig: 117, 57
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1135, 17
+  size: 132, 103
+  orig: 136, 109
+  offset: 2, 3
+  index: -1
+musicAura
+  rotate: true
+  xy: 447, 111
+  size: 156, 148
+  orig: 161, 152
+  offset: 3, 2
+  index: -1
+musicnote_01
+  rotate: true
+  xy: 292, 3
+  size: 31, 40
+  orig: 35, 44
+  offset: 2, 2
+  index: -1
+musicnote_02
+  rotate: true
+  xy: 1391, 3
+  size: 37, 42
+  orig: 41, 46
+  offset: 2, 2
+  index: -1
+shapeParticle
+  rotate: false
+  xy: 33, 2
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+slashglow
+  rotate: true
+  xy: 2, 10
+  size: 72, 29
+  orig: 75, 34
+  offset: 2, 2
+  index: -1
+whiteshine
+  rotate: true
+  xy: 173, 4
+  size: 23, 49
+  orig: 23, 49
+  offset: 0, 0
+  index: -1
+ww/ww-ball
+  rotate: false
+  xy: 1265, 139
+  size: 125, 128
+  orig: 132, 132
+  offset: 4, 3
+  index: -1
+ww/ww-ball-glow
+  rotate: true
+  xy: 1392, 142
+  size: 125, 128
+  orig: 132, 132
+  offset: 4, 3
+  index: -1
+ww/ww-font
+  rotate: false
+  xy: 33, 15
+  size: 138, 67
+  orig: 148, 78
+  offset: 5, 6
+  index: -1
+ww/ww-frame
+  rotate: true
+  xy: 2, 84
+  size: 183, 168
+  orig: 186, 172
+  offset: 1, 1
+  index: -1
+ww/ww-shadow
+  rotate: false
+  xy: 996, 122
+  size: 143, 145
+  orig: 156, 156
+  offset: 6, 5
+  index: -1
+ww/ww-stick
+  rotate: false
+  xy: 521, 4
+  size: 125, 105
+  orig: 136, 110
+  offset: 8, 2
+  index: -1

@@ -1,0 +1,83 @@
+
+Nearwin.png
+size: 998,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: true
+  xy: 655, 24
+  size: 97, 176
+  orig: 103, 180
+  offset: 3, 2
+  index: -1
+blink
+  rotate: false
+  xy: 833, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+curveline
+  rotate: true
+  xy: 2, 123
+  size: 11, 764
+  orig: 11, 764
+  offset: 0, 0
+  index: -1
+curveline_b
+  rotate: true
+  xy: 2, 7
+  size: 25, 188
+  orig: 31, 191
+  offset: 3, 2
+  index: -1
+dot
+  rotate: false
+  xy: 768, 123
+  size: 11, 11
+  orig: 13, 12
+  offset: 1, 0
+  index: -1
+equalizer
+  rotate: true
+  xy: 435, 2
+  size: 119, 218
+  orig: 119, 218
+  offset: 0, 0
+  index: -1
+equalizer_b
+  rotate: true
+  xy: 2, 34
+  size: 87, 431
+  orig: 97, 440
+  offset: 5, 5
+  index: -1
+musicnote_1
+  rotate: false
+  xy: 963, 14
+  size: 31, 40
+  orig: 35, 44
+  offset: 2, 2
+  index: -1
+musicnote_2
+  rotate: false
+  xy: 885, 12
+  size: 37, 42
+  orig: 41, 46
+  offset: 2, 2
+  index: -1
+musicnote_3
+  rotate: false
+  xy: 924, 12
+  size: 37, 42
+  orig: 41, 46
+  offset: 2, 2
+  index: -1
+speed_fx
+  rotate: true
+  xy: 833, 56
+  size: 78, 163
+  orig: 78, 163
+  offset: 0, 0
+  index: -1

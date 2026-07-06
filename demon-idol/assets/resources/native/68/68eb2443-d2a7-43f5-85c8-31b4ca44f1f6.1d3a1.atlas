@@ -1,0 +1,62 @@
+
+goldreel-b.png
+size: 661,54
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blink0
+  rotate: false
+  xy: 514, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+blink1
+  rotate: false
+  xy: 566, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+dot0
+  rotate: false
+  xy: 2, 4
+  size: 10, 9
+  orig: 16, 15
+  offset: 3, 3
+  index: -1
+dot1
+  rotate: false
+  xy: 14, 4
+  size: 10, 9
+  orig: 16, 15
+  offset: 3, 3
+  index: -1
+musicnote1
+  rotate: true
+  xy: 404, 4
+  size: 48, 53
+  orig: 51, 56
+  offset: 2, 2
+  index: -1
+musicnote1a
+  rotate: true
+  xy: 459, 4
+  size: 48, 53
+  orig: 51, 56
+  offset: 2, 2
+  index: -1
+musicnote2
+  rotate: false
+  xy: 618, 2
+  size: 41, 50
+  orig: 47, 55
+  offset: 3, 2
+  index: -1
+trail_shine
+  rotate: true
+  xy: 2, 15
+  size: 37, 400
+  orig: 41, 409
+  offset: 2, 5
+  index: -1
